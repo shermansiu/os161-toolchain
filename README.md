@@ -9,6 +9,8 @@ Patches applied/resources consulted:
 - GCC:
   - `cfns.gperf:101:1: error: ‘const char* libc_name_p(const char*, unsigned int)’ redeclared inline with ‘gnu_inline’ attribute`:
     - https://stackoverflow.com/questions/41204632/unable-to-build-gcc-due-to-c11-errors
+  - gcc/doc/gcc.texi (missing @endtab, @endtex, etc. at the end of the file):
+    - Add some newlines throughout the source code
   - Broken t-scan test:
     - https://github.com/wbhart/mpir/issues/20
   - Missing GMP, MPFR, MPC:
