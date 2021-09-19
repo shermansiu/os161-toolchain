@@ -15,4 +15,4 @@ Patches applied/resources consulted:
     - https://stackoverflow.com/questions/9253695/building-gcc-requires-gmp-4-2-mpfr-2-3-1-and-mpc-0-8-0
 - GDB:
   - sim_addr_range_hit_p defined multiple times:
-    - move the inline function definition from sim-arange.c into sim-arange.h. (Referenced, but not solved [here](https://sourceforge.net/p/mspgcc/mailman/mspgcc-users/thread/5620133A.1030001%40serebryakov.spb.ru/):)
+    - Solution: move the inline function definition from sim-arange.c into sim-arange.h. (Referenced, but not solved [here](https://sourceforge.net/p/mspgcc/mailman/mspgcc-users/thread/5620133A.1030001%40serebryakov.spb.ru/):)
